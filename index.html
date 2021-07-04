@@ -1,0 +1,653 @@
+
+<!DOCTYPE HTML>
+<html>
+<meta http-equiv="content-type" content="text/html;charset=UTF-8" />
+<head>
+<title>Dolab IT Software Solution</title>
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<link href='http://fonts.googleapis.com/css?family=Open+Sans:400,700,800,600,300' rel='stylesheet' type='text/css'>
+<link href="css/bootstrap.css" rel="stylesheet" type="text/css" media="all" />
+<link href="css/style.css" rel="stylesheet" type="text/css" media="all" />
+<link href="css/font-awesome.css" rel="stylesheet" type="text/css" media="all" />
+<link href="css/carousel.css" rel="stylesheet" type="text/css" media="all" />
+<link href="css/owl.carousel.css" rel="stylesheet" type="text/css" media="all" />
+<script src="js/jquery-1.10.2.min.js" type="text/javascript"></script>
+<script src="js/bootstrap.js" type="text/javascript"></script>
+<script src="js/owl.carousel.js" type="text/javascript"></script>
+  <script>
+    $(document).ready(function() {
+
+      var owl = $("#owl-demo");
+
+      owl.owlCarousel({
+
+      items :4, //10 items above 1000px browser width
+      itemsDesktop : [1000,4], //5 items between 1000px and 901px
+      itemsDesktopSmall : [900,3], // 3 items betweem 900px and 601px
+      itemsTablet: [600,2], //2 items between 600 and 0;
+      itemsMobile : false // itemsMobile disabled - inherit from itemsTablet option
+      
+      });
+
+      // Custom Navigation Events
+      $(".next").click(function(){
+        owl.trigger('owl.next');
+      })
+      $(".prev").click(function(){
+        owl.trigger('owl.prev');
+      })
+
+    });
+    </script>
+  <script type="text/javascript">
+  // Login Form
+	$(function() {
+	    var button = $('#loginButton');
+	    var box = $('#loginBox');
+	    var form = $('#loginForm');
+	    button.removeAttr('href');
+	    button.mouseup(function(login) {
+	        box.toggle();
+	        button.toggleClass('active');
+	    });
+	    form.mouseup(function() { 
+	        return false;
+	    });
+	    $(this).mouseup(function(login) {
+	        if(!($(login.target).parent('#loginButton').length > 0)) {
+	            button.removeClass('active');
+	            box.hide();
+	        }
+	    });
+	});
+  </script>
+</head>
+<body>
+<script src="../../../../m.servedby-buysellads.com/monetization.js" type="text/javascript"></script>
+<script>
+(function(){
+	if(typeof _bsa !== 'undefined' && _bsa) {
+  		// format, zoneKey, segment:value, options
+  		_bsa.init('flexbar', 'CKYI627U', 'placement:w3layoutscom');
+  	}
+})();
+</script>
+<script>
+(function(){
+if(typeof _bsa !== 'undefined' && _bsa) {
+	// format, zoneKey, segment:value, options
+	_bsa.init('fancybar', 'CKYDL2JN', 'placement:demo');
+}
+})();
+</script>
+<script>
+(function(){
+	if(typeof _bsa !== 'undefined' && _bsa) {
+  		// format, zoneKey, segment:value, options
+  		_bsa.init('stickybox', 'CKYI653J', 'placement:w3layoutscom');
+  	}
+})();
+</script>
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src='https://www.googletagmanager.com/gtag/js?id=UA-149859901-1'></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-149859901-1');
+</script>
+
+<script>
+     window.ga=window.ga||function(){(ga.q=ga.q||[]).push(arguments)};ga.l=+new Date;
+     ga('create', 'UA-149859901-1', 'demo.w3layouts.com');
+     ga('require', 'eventTracker');
+     ga('require', 'outboundLinkTracker');
+     ga('require', 'urlChangeTracker');
+     ga('send', 'pageview');
+   </script>
+<script async src='../../../js/autotrack.js'></script>
+
+<meta name="robots" content="noindex">
+<body><link rel="stylesheet" href="../../../assests/css/font-awesome.min.css">
+<!-- New toolbar-->
+<style>
+* {
+  box-sizing: border-box;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif;
+}
+
+
+#w3lDemoBar.w3l-demo-bar {
+  top: 0;
+  right: 0;
+  bottom: 0;
+  z-index: 9999;
+  padding: 40px 5px;
+  padding-top:70px;
+  margin-bottom: 70px;
+  background: #0D1326;
+  border-top-left-radius: 9px;
+  border-bottom-left-radius: 9px;
+}
+
+#w3lDemoBar.w3l-demo-bar a {
+  display: block;
+  color: #e6ebff;
+  text-decoration: none;
+  line-height: 24px;
+  opacity: .6;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+#w3lDemoBar.w3l-demo-bar span.w3l-icon {
+  display: block;
+}
+
+#w3lDemoBar.w3l-demo-bar a:hover {
+  opacity: 1;
+}
+
+#w3lDemoBar.w3l-demo-bar .w3l-icon svg {
+  color: #e6ebff;
+}
+#w3lDemoBar.w3l-demo-bar .responsive-icons {
+  margin-top: 30px;
+  border-top: 1px solid #41414d;
+  padding-top: 40px;
+}
+#w3lDemoBar.w3l-demo-bar .demo-btns {
+  border-top: 1px solid #41414d;
+  padding-top: 30px;
+}
+#w3lDemoBar.w3l-demo-bar .responsive-icons a span.fa {
+  font-size: 26px;
+}
+#w3lDemoBar.w3l-demo-bar .no-margin-bottom{
+  margin-bottom:0;
+}
+.toggle-right-sidebar span {
+  background: #0D1326;
+  width: 50px;
+  height: 50px;
+  line-height: 50px;
+  text-align: center;
+  color: #e6ebff;
+  border-radius: 50px;
+  font-size: 26px;
+  cursor: pointer;
+  opacity: .5;
+}
+.pull-right {
+  float: right;
+  position: fixed;
+  right: 0px;
+  top: 70px;
+  width: 90px;
+  z-index: 99999;
+  text-align: center;
+}
+/* ============================================================
+RIGHT SIDEBAR SECTION
+============================================================ */
+
+#right-sidebar {
+  width: 90px;
+  position: fixed;
+  height: 100%;
+  z-index: 1000;
+  right: 0px;
+  top: 0;
+  margin-top: 60px;
+  -webkit-transition: all .5s ease-in-out;
+  -moz-transition: all .5s ease-in-out;
+  -o-transition: all .5s ease-in-out;
+  transition: all .5s ease-in-out;
+  overflow-y: auto;
+}
+
+
+/* ============================================================
+RIGHT SIDEBAR TOGGLE SECTION
+============================================================ */
+
+.hide-right-bar-notifications {
+  margin-right: -300px !important;
+  -webkit-transition: all .3s ease-in-out;
+  -moz-transition: all .3s ease-in-out;
+  -o-transition: all .3s ease-in-out;
+  transition: all .3s ease-in-out;
+}
+
+
+
+@media (max-width: 992px) {
+  #w3lDemoBar.w3l-demo-bar a.desktop-mode{
+      display: none;
+
+  }
+}
+@media (max-width: 767px) {
+  #w3lDemoBar.w3l-demo-bar a.tablet-mode{
+      display: none;
+
+  }
+}
+@media (max-width: 568px) {
+  #w3lDemoBar.w3l-demo-bar a.mobile-mode{
+      display: none;
+  }
+  #w3lDemoBar.w3l-demo-bar .responsive-icons {
+      margin-top: 0px;
+      border-top: none;
+      padding-top: 0px;
+  }
+  #right-sidebar,.pull-right {
+      width: 90px;
+  }
+  #w3lDemoBar.w3l-demo-bar .no-margin-bottom-mobile{
+      margin-bottom: 0;
+  }
+}
+</style>
+
+
+   
+        <!---<div class="responsive-icons">
+            <a href="#url" class="desktop-mode">
+                <span class="w3l-icon -desktop">
+                    <span class="fa fa-desktop"></span>
+                </span>
+            </a>
+            <a href="#url" class="tablet-mode">
+                <span class="w3l-icon -tablet">
+                    <span class="fa fa-tablet"></span>
+                </span>
+            </a>
+            <a href="#url" class="mobile-mode no-margin-bottom">
+                <span class="w3l-icon -mobile">
+                    <span class="fa fa-mobile"></span>
+                </span>
+            </a>
+        </div>-->
+    </div>
+    <div class="right-sidebar-panel-content animated fadeInRight" tabindex="5003"
+        style="overflow: hidden; outline: none;">
+    </div>
+</div>
+</div>
+</div>
+
+   <!-- Start Header -->
+       <div class="header">	
+   	 	    <div class="header-top">
+   	 	      <div class="wrap"> 
+   	 	    	 <div class="header-top-left">
+   	 	    	 	<p>Call Us: +91 7907951443</p>
+   	 	    	 </div>
+   				  <div class="header-top-right">
+				        <ul>
+				            <li><a href"#"><i class="fa fa-comments"></i>Sales Chat</a></li>
+				            <li  class="login">
+				              <div id="loginContainer">
+				            	   <a href="#" id="loginButton"><span><i class="fa fa-lock"></i>Login</span></a>
+						                <div id="loginBox" class="login-form">    
+						                	<h3>Login into Your Account</h3>            
+						                      <form id="loginForm">
+						                                <span>
+											 	    		<i><img src="images/user.png" alt="" /></i>
+											 	    		 <input type="text" value="yourname@mail.com" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'yourname@mail.com';}">
+											 	    	</span>
+						                                <span>
+												 	     <i><img src="images/lock.png" alt="" /></i>
+											 	         <input type="password" value="........." onfocus="this.value = '';" onblur="if (this.value == '') {this.value = '.........';}">
+												 	    </span>
+						                               <input type="submit" value="Login">
+						                       </form>
+						                  </div>
+						             </div>
+				               </li>
+				               <li><a href="#" ><i class="fa fa-sign-in"></i>Sign Up</a></li>
+				         </ul>
+				    </div>
+			      <div class="clear"></div>
+			     </div> 
+		      </div>
+             <div class="header-logo-nav">
+             	  <div class="navbar navbar-inverse navbar-static-top nav-bg" role="navigation">
+				      <div class="container">
+				        <div class="navbar-header">
+				          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+				            <span class="sr-only">Toggle navigation</span>
+				            <span class="icon-bar"></span>
+				            <span class="icon-bar"></span>
+				            <span class="icon-bar"></span>
+				          </button>
+				         <div class="logo"> <a class="navbar-brand" href="index.html"><img src="images/logo.png" alt="" /></a></div>
+				          <div class="clear"></div>
+				        </div>
+				        <div class="collapse navbar-collapse">
+				          <ul class=" menu nav navbar-nav">
+				            <li class="active"><a href="#">Home</a></li>
+				            <li><a href="#">About Us</a></li>
+				            <li><a href="#">Our Services</a></li>
+				            <li><a href="#">Our Team</a></li>
+				            <li><a href="#">Our Clients</a></li>
+				            <li><a href="Contact.html">Contact Us</a></li>
+				          </ul>
+				        </div><!--/.nav-collapse -->
+				      </div>
+				    </div>
+		         <div class="clear"></div>
+	        </div>
+	        <div class="header-banner">
+	        	
+			    <!-- Carousel ================================================== -->
+			    <div id="myCarousel" class="carousel slide" data-ride="carousel">
+			     <div class="wrap">
+			      <div class="carousel-inner">
+			        <div class="item active">
+			           <div class="row">
+				        <div class="col-md-6">
+				          <div class="banner-desc">
+				        	<h2>Best Web Design Company in Kerala</h2>
+				           <ul>
+				          	<li><span><i class="fa fa-chevron-right"></i>Developing all kind of Websites in best Cost.</span></li>
+				            <li><span><i class="fa fa-chevron-right"></i>24/7 support</span></li>
+				            <li><span><i class="fa fa-chevron-right"></i>performance, reliability, security</span></li>
+				            <li><span><i class="fa fa-chevron-right"></i>Flexible contracts</span></li>
+				          </ul>
+				          <div class="see-features"><a href="#">See Features</a></div>
+				          </div>
+				        </div>
+				        <div class="col-md-6">
+				        	<div class="banner-img">
+			                <img src="images/devices.png" alt="First slide" />
+			             </div>
+				        </div>
+				      </div>
+			        </div>
+			         <div class="item">
+			         
+			          <div class="row">
+			          	<div class="col-md-6">
+				        	<div class="banner-img">
+			                <img src="images/devices.png" alt="First slide" />
+			             </div>
+				        </div>
+				        <div class="col-md-6">
+				        	<div class="banner-desc">
+				        	<h2>E commerce development</h2>
+				          <ul>
+				          	<li><span><i class="fa fa-chevron-right"></i>We build eCommerce Websites to expand your selling businesss</span></li>
+				            <li><span><i class="fa fa-chevron-right"></i>24/7 support</span></li>
+				            <li><span><i class="fa fa-chevron-right"></i>performance, reliability, security</span></li>
+				            <li><span><i class="fa fa-chevron-right"></i>Flexible contracts</span></li>
+				          </ul>
+				          <div class="see-features"><a href="#">See Features</a></div>
+				          </div>
+				         </div>
+				      </div>
+			        </div>
+			       </div>
+			      </div>
+			      <a class="left carousel-control left-arrow" href="#myCarousel" data-slide="prev"><span><i class="fa fa-chevron-left"></i></span></a>
+			      <a class="right carousel-control right-arrow" href="#myCarousel" data-slide="next"><span><i class="fa fa-chevron-right"></i></span></a>
+			    </div><!-- /.carousel -->
+	           </div>
+	          <span class="big-arrow"></span>
+             </div>
+   <!-- End Header -->
+   <!---728x90--->
+
+   <!-- Start Main Content -->
+	 <div class="main">	 
+	 	 <div class="wrap">
+	 	<div class="features">
+	 		<div class="row">
+		        <div class="col-lg-4">
+		          <img src="images/private-cloud.png" alt="" />
+		          <h2>Stati Website</h2>
+		          <p>Static sites are the most basic type of website and are the easiest to create. Unlike dynamic websites, they do not require any Web programming or database design. A static site can be built by simply creating a few HTML pages and publishing them to a Web server </p>
+		          <p><a class="read-more" href="index.html">Read More</a></p>
+		        </div><!-- /.col-lg-4 -->
+		        <div class="col-lg-4">
+		        <img src="images/dedicated-servers.png" alt="" />
+		          <h2>Dynamic Website</h2>
+		          <p>A dynamic web page is a web page that displays different content each time it's viewed. For example, the page may change with the time of day, the user that accesses the webpage, or the type of user interaction. </p>
+		          <p><a class="read-more" href="index.html">Read More</a></p>
+		        </div><!-- /.col-lg-4 -->
+		        <div class="col-lg-4">
+		          <img src="images/hybrid-cloud.png" alt="" />
+		          <h2>E-commerce Website</h2>
+		          <p>E-commerce (electronic commerce) is the activity of electronically buying or selling of products on online services or over the Internet. ... There are three areas of e-commerce: online retailing, electronic markets, and online auctions. E-commerce is supported by electronic business. </p>
+		          <p><a class="read-more" href="index.html">Read More</a></p>
+		        </div><!-- /.col-lg-4 -->
+		      </div>
+		   </div>
+		   <!---728x90--->
+		   <div class="support">
+		   	<div class="container-fluid">
+			  <div class="row">
+			   <div class="col-lg-10">
+			   	<h2>24/7 Service & Support</h2>
+			   	<p> </p>
+			   </div>
+			    <div class="col-lg-2">
+			      <p><a class="read-more" href="index.html">Live Chat</a></p>
+			   </div>
+			  </div>
+			</div>
+		   </div>
+		   
+		   <div class="list-performance">
+		   	 <div class="row">
+			   <div class="col-lg-6">
+			   	<h2>What We Provide</h2>
+			   	<ul>
+			   		<li><i class="fa fa-check"></i>Free Hosting</li>
+			   		<li><i class="fa fa-check"></i>Free First Year Domain</li>
+			   		<li><i class="fa fa-check"></i>Free Server</li>
+			   		<li><i class="fa fa-check"></i>Fully Responsive Design Across All Device</li>
+			   		
+			   	</ul>
+			   </div>
+			    <div class="col-lg-6">
+			     <h2>Performance</h2>
+			     <ul class="progress-bars">
+			     	<li><div class="progress">
+                           <div class="bar" style="width:95%;"></div>
+                        </div>
+                    </li>
+			     	<li><div class="progress">
+                           <div class="bar" style="width:97%;"></div>
+                        </div></li>
+			     	<li><div class="progress">
+                           <div class="bar" style="width:90%;"></div>
+                        </div></li>
+			     	<li><div class="progress">
+                           <div class="bar" style="width:88%;"></div>
+                        </div></li>
+			     </ul>
+			   </div>
+			 </div>
+		   </div>
+		 </div>  
+		 <<!-- div class="testimonials-news">
+		   <div class="clients">
+		   	 <h2>what Our Clients are Saying</h2>
+		   	     <div class="testimonials">
+		   	      <div id="carousel-demo">
+		   	      	<div class="wrap">
+		                <div id="owl-demo" class="owl-carousel">		                
+		                <div class="item">
+		                	<img class="img-circle" src="images/clints-img.png" alt="" />
+		                	<h3>Lorem ipsum</h3>
+		                	<p>“Proin malesuada egestas nunc tristique aliquet.”</p>
+		                </div>
+		                 <div class="item">
+		                	<img class="img-circle" src="images/clints-img.png" alt="" />
+		                	<h3>Lorem ipsum</h3>
+		                	<p>“Proin malesuada egestas nunc tristique aliquet.”</p>
+		                </div>
+		                 <div class="item">
+		                	<img class="img-circle" src="images/clints-img.png" alt="" />
+		                	<h3>Lorem ipsum</h3>
+		                	<p>“Proin malesuada egestas nunc tristique aliquet.”</p>
+		                </div>
+		                 <div class="item">
+		                	<img class="img-circle" src="images/clints-img.png" alt="" />
+		                	<h3>Lorem ipsum</h3>
+		                	<p>“Proin malesuada egestas nunc tristique aliquet.”</p>
+		                </div>
+		                 <div class="item">
+		                	<img class="img-circle" src="images/clints-img.png" alt="" />
+		                	<h3>Lorem ipsum</h3>
+		                	<p>“Proin malesuada egestas nunc tristique aliquet.”</p>
+		                </div>
+		                 <div class="item">
+		                	<img class="img-circle" src="images/clints-img.png" alt="" />
+		                	<h3>Lorem ipsum</h3>
+		                	<p>“Proin malesuada egestas nunc tristique aliquet.”</p>
+		                </div>
+		                 <div class="item">
+		                	<img class="img-circle" src="images/clints-img.png" alt="" />
+		                	<h3>Lorem ipsum</h3>
+		                	<p>“Proin malesuada egestas nunc tristique aliquet.”</p>
+		                </div>
+		               </div>
+		              </div>
+		               <div class="customNavigation">
+		                <a class="btn prev"><i class="fa fa-chevron-left"></i></a>
+		                <a class="btn next"><i class="fa fa-chevron-right"></i></a>             
+		              </div>
+		         </div>
+		      </div>
+	       </div> -->
+	       
+	     <!--  <div class="news">
+	      	<div class="wrap">
+	      	  <h2>News</h2>
+	      	  <div class="row">
+		        <div class="col-lg-3 news-grid">
+		          <img src="images/news-img.jpg" alt="" />
+		          <div class="news-desc">
+		          <h2>this is your last news</h2>
+		          <p>Sed quis augue vitae diam condimentum mollis. Quisque bibendum, urna quis ornare accumsan, nisl justo placerat sem [...]</p>
+		          <p><a class="read-more" href="index.html">Read More</a></p>
+		            <div class="news-desc-bottom">
+		            	<p class="left">Category: Something</p>
+		            	<p class="right"><i class="fa fa-comment"></i> 125</p>
+		               <div class="clear"></div>
+		            </div>
+		            <div class="image-icon"><span><i class="fa fa-align-left"></i></span></div>
+		          </div> -->
+		        <!-- </div> --><!-- /.col-lg-4 -->
+		        <!-- <div class="col-lg-3 news-grid news-grid-middle">
+		        <img src="images/news-img.jpg" alt="" />
+		         <div class="news-desc">
+		          <h2>this is your last news</h2>
+		          <p>Sed quis augue vitae diam condimentum mollis. Quisque bibendum, urna quis ornare accumsan, nisl justo placerat sem [...]</p>
+		          <p><a class="read-more" href="index.html">Read More</a></p>
+		            <div class="news-desc-bottom">
+		            	<p class="left">Category: Something</p>
+		            	<p class="right"><i class="fa fa-comment"></i> 125</p>
+		               <div class="clear"></div>
+		            </div>
+		            <div class="image-icon"><span><i class="fa fa-align-left"></i></span></div>
+		          </div>
+		        </div> --><!-- /.col-lg-4 -->
+		        <!-- <div class="col-lg-3 news-grid">
+		          <img src="images/news-img.jpg" alt="" />
+		         <div class="news-desc">
+		          <h2>this is your last news</h2>
+		          <p>Sed quis augue vitae diam condimentum mollis. Quisque bibendum, urna quis ornare accumsan, nisl justo placerat sem [...]</p>
+		          <p><a class="read-more" href="index.html">Read More</a></p>
+		            <div class="news-desc-bottom">
+		            	<p class="left">Category: Something</p>
+		            	<p class="right"><i class="fa fa-comment"></i> 125</p>
+		               <div class="clear"></div>
+		            </div> -->
+		            <!-- <div class="image-icon"><span><i class="fa fa-align-left"></i></span></div>
+		          </div>
+		        </div><!-- /.col-lg-4 -->
+		      <<!-- /div>
+	      	 </div>
+	      </div>
+	 </div>
+    </div> --> -->
+   <!-- End Main Content -->
+	 <!---728x90--->   
+  <!-- Start Footer -->
+       <span class="footer-arrow"></span>
+       <div class="footer">	  
+       	 <div class="wrap">	      
+		  <div class="row">
+			   <div class="col-lg-6">
+			   	<h2>About Dolab</h2>
+			   	<p>When you look for professional Web Designing, Mobile App Development, SEO, SMO and Digital Marketing or WordPress Development, Kerala Web Design Company is the one and the best choice in Ernakulam or Cochin. We are specialists in the niche, and our working style is based on a one-to-one dialogue with the clients. We bring the best end-user experience.
+
+We understand that your website is pivotal in building your image. Hence, we make it impressive and sleek. The freshness of web design and presentable looks are on the cards when we develop it for you. </p>
+			   <!--  <ul class="links">
+			    	<li><a href="#">About</a> /</li>
+			    	<li><a href="#">Term of Services</a> /</li>
+			    	<li><a href="#">Press</a> /</li>
+			    	<li><a href="#">Staff</a> /</li>
+			    	<li><a href="#">News</a></li>
+			    </ul>  -->
+			   </div>
+			    <div class="col-lg-6">
+			     <h2>Contact US</h2>
+			     <div class="products-list">
+			     <ul>
+			     	<li><a href="tel:+917907951443"><i class="fa fa-chevron-right"></i> Call Us; +917907951443  </a></li>
+			     	
+			     </ul>
+			    <!--  <ul>	                         
+			       <li><a href="#"><i class="fa fa-chevron-right"></i> dedicated hosting</a></li>
+                   <li><a href="#"><i class="fa fa-chevron-right"></i> email hosting </a></li>
+                   <li><a href="#"><i class="fa fa-chevron-right"></i> solutions</a></li>
+                   <li><a href="#"><i class="fa fa-chevron-right"></i> Knowledge Center</a></li>
+			     </ul> -->
+			     <div class="clear"></div>
+			    </div>
+			     <div class="subscribe">
+			    	<!-- <form>
+			    		<input type="text" placeholder="youremail@domain.com" />
+			    		<input type="submit" value="Subscribe" />
+			    	</form> -->
+			    </div>
+			   </div>
+			  </div>
+			 </div>
+		   </div>
+			 <div class="footer-bottom">
+			 	<div class="wrap">
+			 	<div class="copy-right">
+			 		<p>Copyright &copy; 2021 Dolab . All Rights Reserved | Created by <a href="index.html" target="_blank">Dolab</a></p>
+			 	</div>
+			 	<div class="social-icons">
+			 		<ul>
+			 			<li><a href="#"><i class="fa fa-twitter"></i></a></li>
+			 			<li><a href="#"><i class="fa fa-facebook"></i></a></li>
+			 			<li><a href="#"><i class="fa fa-google-plus"></i></a></li>
+			 			<li><a href="#"><i class="fa fa-rss"></i></a></li>
+			 			<li><a href="#"><i class="fa fa-linkedin"></i></a></li>
+			 		</ul>
+			 	</div>
+			 	<div class="clear"></div>
+			 </div>
+	       </div>
+  <!-- End Footer -->
+  
+
+<div id = "v-w3layouts"></div><script>(function(v,d,o,ai){ai=d.createElement('script');ai.defer=true;ai.async=true;ai.src=v.location.protocol+o;d.head.appendChild(ai);})(window, document, '../../../../a.vdo.ai/core/v-w3layouts/vdo.ai.js');</script>
+	</body>
+
+</html>
+
+    	
+    	
+            
